@@ -1,0 +1,20 @@
+{
+  "name": "cocktail-cli",
+  "bin": {
+    "cocktail": "./dist/index.js"
+  },
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "link-cli": "npm unlink -g && npm link",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "Cristhyan De Marchena",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
