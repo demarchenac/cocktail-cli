@@ -16,5 +16,12 @@
   "devDependencies": {
     "@types/node": "^20.11.5",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.3.0",
+    "@playwright/test": "^1.41.0",
+    "commander": "^11.1.0",
+    "ora": "^8.0.1",
+    "playwright": "^1.41.0"
   }
 }

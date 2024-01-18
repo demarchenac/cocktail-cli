@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
-const hello = () => {};
+import { Command } from "commander";
+import { commands } from "./commands";
+import { addCommands } from "./helpers/addCommands";
 
-console.log("Hello world!");
+const program = new Command();
+
+addCommands(program, commands);
